@@ -1,3 +1,5 @@
+# python variables
+
 print("Hello, what is your name?")
 
 my_name = input()
