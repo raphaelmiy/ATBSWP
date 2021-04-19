@@ -62,4 +62,3 @@ import random
 
 for i in range(5):
     print(random.randint(23456, 2345678900987654))
-print(1600000/2000)
