@@ -1,4 +1,4 @@
-import random
+import random, sys, os, math
 
 #password = input()
 #if password == 'Raphael':
@@ -62,3 +62,10 @@ import random
 
 for i in range(5):
     print(random.randint(23456, 2345678900987654))
+
+while True:
+    print('Type exit to exit.')
+    response = input()
+    if response == 'exit':
+        sys.exit()
+    print('You typed ' + response + '.')
